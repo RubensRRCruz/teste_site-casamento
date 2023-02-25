@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casamento - Eliseu e Angelina</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <header class="has-background-primary has-text-white has-text-centered py-5">
+    <nav class="level">
+      <div class="level-left">
+        <a class="level-item has-text-white" href="#">
+          Início
+        </a>
+        <a class="level-item has-text-white" href="#sobre">
+          Sobre
+        </a>
+        <a class="level-item has-text-white" href="#fotos">
+          Fotos
+        </a>
+        <a class="level-item has-text-white" href="#rsvp">
+          RSVP
+        </a>
+      </div>
+      <div class="level-right">
+        <a class="level-item has-text-white" href="#">
+          Facebook
+        </a>
+        <a class="level-item has-text-white" href="#">
+          Instagram
+        </a>
+        <a class="level-item has-text-white" href="#">
+          Twitter
+        </a>
+      </div>
+    </nav>
+    <h1 class="title is-1">Casamento de Eliseu e Angelina</h1>
+    <p class="subtitle is-3">Dia 10de Março de 2023</p>
+    <a href="#rsvp" class="button is-large is-white has-text-primary has-text-weight-bold">Confirme sua presença</a>
+  </header>
+
+  <section class="section" id="sobre">
+    <div class="container">
+      <div class="columns is-vcentered">
+        <div class="column is-two-thirds">
+          <h2 class="title is-2 has-text-centered-mobile">Sobre nós</h2>
+          <p class="subtitle is-4">
+            Nós nos conhecemos na faculdade de Arquitetura e Urbanismo e desde então não nos separamos mais. Depois de alguns anos de namoro, finalmente decidimos nos casar e compartilhar este momento com nossos amigos e familiares.
+          </p>
+        </div>
+        <div class="column">
+          <figure class="image is-4by3">
+            <img src="https://picsum.photos/id/10/800/600" alt="João e Maria">
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section has-background-light" id="fotos">
+    <div class="container">
+      <h2 class="title is-2 has-text-centered">Fotos do Casal</h2>
+      <div class="columns is-multiline">
+        <div class="column is-one-third">
+          <figure class="image is-square">
+            <img src="https://picsum.photos/id/237/400/400" alt="Foto do casal 1">
+          </figure>
+        </div>
+        <div class="column is-one-third">
+          <figure class="image is-square">
+            <img src="https://picsum.photos/id/200/400/400"
+            alt="Foto do casal 2">
+        </figure>
+        </div>
+        <div class="column is-one-third">
+        <figure class="image is-square">
+        <img src="https://picsum.photos/id/216/400/400" alt="Foto do casal 3">
+        </figure>
+        </div>
+        <div class="column is-one-third">
+        <figure class="image is-square">
+        <img src="https://picsum.photos/id/230/400/400" alt="Foto do casal 4">
+        </figure>
+        </div>
+        <div class="column is-one-third">
+        <figure class="image is-square">
+        <img src="https://picsum.photos/id/243/400/400" alt="Foto do casal 5">
+        </figure>
+        </div>
+        <div class="column is-one-third">
+        <figure class="image is-square">
+        <img src="https://picsum.photos/id/250/400/400" alt="Foto do casal 6">
+        </figure>
+        </div>
+        </div>
+        </div>
+        
+          </section>
+          <section class="section" id="rsvp">
+            <div class="container">
+              <h2 class="title is-2 has-text-centered">RSVP</h2>
+              <form action="#" method="post">
+                <div class="field">
+                  <label class="label" for="nome">Nome Completo:</label>
+                  <div class="control">
+                    <input class="input" type="text" id="nome" name="nome" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label" for="email">Email:</label>
+                  <div class="control">
+                    <input class="input" type="email" id="email" name="email" required>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label" for="confirmacao">Confirmação:</label>
+                  <div class="control">
+                    <div class="select">
+                      <select id="confirmacao" name="confirmacao" required>
+                        <option value="" selected>Escolha uma opção</option>
+                        <option value="sim">Sim, confirmo minha presença</option>
+                        <option value="nao">Não poderei comparecer</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="field">
+                  <label class="label" for="mensagem">Mensagem:</label>
+                  <div class="control">
+                    <textarea class="textarea" id="mensagem" name="mensagem"></textarea>
+                  </div>
+                </div>
+                <div class="field">
+                  <div class="control">
+                    <button class="button is-link is-medium has-text-weight-bold">Enviar</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </section>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2994.643517127832!2d-122.40805578458911!3d37.78575197975412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580ce3776cdd7%3A0x1410b6f1aa6aeb2f!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1617295426663!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+          <footer class="has-background-primary has-text-white has-text-centered py-5">
+            <p class="subtitle is-5">Copyright &copy; 2023 -
+              <a href="#" class="has-text-white">João e Maria</a>
+            </p>
+          </footer>
+        </body>
+        </html>
